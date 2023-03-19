@@ -17,7 +17,7 @@ variable "key_vault_id" {
 }
 
 variable "secrets_updates" {
-  description ="(Optional) "Secret key value pair details to be updated in the keyvault"
+  description ="(Optional) Secret key value pair details to be updated in the keyvault"
   type        = map(any)
   default     = {}
 }
